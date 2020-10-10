@@ -69,6 +69,11 @@ ITEM_PIPELINES = {
     'novel.pipelines.NovelPipeline': 300,
 }
 
+# mongodb配置
+mongo_host = '180.76.177.202'
+mongo_port = 27017
+mongo_db_name = 'book'
+mongo_db_collection = 'chapter'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
